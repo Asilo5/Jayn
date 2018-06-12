@@ -1,0 +1,170 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+}
+
+html, body {
+    height:100%;
+}
+
+
+/*  ---- NAVBAR ---- */
+
+#navbar {
+  padding: 0px;
+  margin: 0px;
+
+}
+
+#navbar a{
+  padding: 10px;
+  color: black;
+  font-family: 'Caveat Brush', cursive;
+  font-size: 2em;
+}
+
+#navbar a:hover{
+  color: #1A5E22;
+  text-shadow: 1px 1px black;
+}
+
+#navbar .navbar-brand {
+  color: #D71839;
+  text-shadow: 1px 1px #000;
+  font-family: 'Pompiere', cursive;
+  font-weight: bold;
+  font-size: 3em;
+}
+
+#navbar .navbar-brand:hover {
+  color: #D71839;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(122,71,22)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler-icon{
+  width: 50px;
+  height:50px;
+}
+
+
+/*  ---- HEADER ---- */
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -70px;
+  padding-bottom: -60px;
+  z-index: -1;
+  position: relative;
+}
+
+
+
+/*  ---- ABOUT ---- */
+
+#about {
+  background-color: #FEAD18;
+  z-index: 10;
+
+}
+
+h2 {
+    font-family: 'Caveat Brush', cursive;
+    font-size: 4em;
+    text-align: center;
+    margin-top: -70px;
+    z-index: 10;
+    padding: 15px;
+    text-decoration: underline;
+}
+
+#about p{
+  font-family: 'Architects Daughter', cursive;
+  padding: 30px;
+  line-height: 35px;
+  text-align: center;
+  font-size: 1.3em;
+}
+
+
+
+
+/*  ---- MENU ---- */
+
+#menu {
+  background-color: #28953E;
+  margin-top: 4em;
+}
+
+#accordion {
+  padding: 3em 10em 3em 10em;
+}
+
+.card {
+  background-color: #6D451D;
+  box-shadow:  0px 5px 10px #403d3d;
+  margin: 8px;
+}
+
+.card-body {
+  background-color: #ECBC6A;
+  font-family: 'Architects Daughter', cursive;
+}
+
+#accordion .btn {
+  text-decoration: none;
+  color: white;
+  font-size: 35px;
+  font-family: 'Pompiere', cursive;
+  font-weight: bold;
+}
+
+
+/*  ---- CONTACT---- */
+
+#contact {
+  background-color: #9A112C;
+  margin-top: 4em;
+}
+
+#contact .container{
+  background-color: rgba();
+  margin-top: 2em;
+  padding: 1em 8em 1em 8em;
+}
+
+.contactForm p {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 1.5em;
+}
+
+#contact .col-md-6 {
+  margin-right: -3px;
+}
+
+#contact .row {
+    border: 1px dotted black;
+    padding: 3em;
+}
+
+#contact .address {
+  margin-left: 5px;
+}
+
+#contact .fab {
+  font-size: 1.5em;
+  color: #000;
+  text-align: right;
+}
+
+/*  ---- FOOD ---- */
+
+
+
+/*  ---- FOOTER ---- */
