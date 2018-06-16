@@ -114,12 +114,45 @@ h2 {
 .card-body {
   background-color: #ECBC6A;
   font-family: 'Architects Daughter', cursive;
+  font-size: 25px;
+}
+
+.card-body .price {
+  color: #1A5E22;
+  text-shadow: 1px 1px black;
+}
+
+.card-body .food {
+  color: #9A112C;
+  font-size: 28px;
+  text-shadow: 1px 1px black;
+}
+
+.card-body .juice {
+  color: #9A112C;
+  font-size: 28px;
+  text-decoration: underline;
+  text-shadow: 1px 1px black;
+}
+
+.card-body .days {
+  text-decoration: underline;
+  font-size: 28px;
+  color: #4F310C;
+  text-shadow: 1px 1px black;
+}
+
+.card-body .snacks {
+  color: #9A112C;
+  font-size: 28px;
+  text-shadow: 1px 1px black;
+  text-decoration: underline;
 }
 
 #accordion .btn {
   text-decoration: none;
   color: white;
-  font-size: 35px;
+  font-size: 40px;
   font-family: 'Pompiere', cursive;
   font-weight: bold;
 }
